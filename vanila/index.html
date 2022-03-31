@@ -24,25 +24,82 @@
   <body>
     <nav id="navbar">
       <div class="navbar__logo">
-        <img src="" alt="logo" />
-        <a href="">Ryan</a>
+        <a href="./index.html">FE RYAN</a>
       </div>
       <div>
         <ul class="navbar__menu">
           <li class="navbar__menu__item">About</li>
-          <li class="navbar__menu__item">Skills</li>
           <li class="navbar__menu__item">Works</li>
-          <li class="navbar__menu__item">Posts</li>
-          <li class="navbar__menu__item">Testimonials</li>
           <li class="navbar__menu__item">Contact</li>
         </ul>
       </div>
     </nav>
-    <section id="about"></section>
-    <section id="skills"></section>
-    <section id="works"></section>
-    <section id="posts"></section>
-    <section id="testimonials"></section>
-    <section id="contact"></section>
+    <!-- three.js -->
+    <canvas></canvas>
+    <!-- main section -->
+    <section id="about">
+      <article>
+        <div>
+          <p>안녕하세요, 신입 프론트엔드 개발자 지원중인 김현호입니다!</p>
+        </div>
+        <p>Kim Hyeonho</p>
+        <img src="./img/psicon.jpeg" alt="profile image">
+      </article>
+      <article>
+        <h3>About me</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis ipsa atque nesciunt possimus culpa dignissimos eum harum fuga illum labore asperiores nulla assumenda facere earum nisi odit veritatis, tenetur quaerat?</p>
+      </article>
+      <article>
+        <h3>Bio</h3>
+        <p>2022.4.25 ~ 2022.10.19 코드스테이츠 프론트엔드 부트캠프 1기 수료(하고싶다!)</p>
+      </article>
+    </section>
+    <!-- skills -->
+    <!-- 버튼을 display:none 주고 이미지 삽입? -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div>
+        <button>
+          <img src="" alt="">
+        </button>
+        <button>
+          <img src="" alt="">
+        </button>
+        <button>
+          <img src="" alt="">
+        </button>
+        <button>
+          <img src="" alt="">
+        </button>
+        <button>
+          <img src="" alt="">
+        </button>
+        <button>
+          <img src="" alt="">
+        </button>
+      </div>
+      <!-- 상기 버튼 클릭시 하단 문구 영역을 지우고 해당부분에 구현수준 텍스트 나타나게 하려면? -->
+      <div>
+        <p>클릭하여 구현능력을 살펴보세요.</p>
+      </div>
+    </section>
+    <!-- works -->
+    <!-- 프로젝트 이미지는 ::before로 줄 예정. a태그를 article로 감싸야 하나? -->
+    <section id="works">
+      <h2>개인 프로젝트</h2>
+        <a href="">
+          <p>프로젝트 이름</p>
+        </a>
+      <h2>팀 프로젝트</h2>
+      <a href="">
+        <p>프로젝트 이름</p>
+      </a>   
+    </section>
+
+    <section id="contact">
+      <img src="" alt=""><a href="">깃</a></img>
+      <img src="" alt=""><a href="">블로그</a></img>
+      <img src="" alt=""><a href="">유튜브</a></img>
+    </section>
   </body>
 </html>
